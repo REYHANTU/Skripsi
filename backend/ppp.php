@@ -14,7 +14,7 @@
     $searchTerm = isset($_GET['search']) ? $_GET['search'] : '';
 
     // Query to fetch articles with pagination and optional search
-    $sql = "SELECT * FROM combined_merge_datasets ";
+    $sql = "SELECT * FROM testing";
     if (!empty($searchTerm)) {
         $sql .= "WHERE `COL 1` LIKE '%" . $conn->real_escape_string($searchTerm) . "%' ";
     }
@@ -36,7 +36,7 @@
     }
 
     // Count total articles for pagination
-    $totalArticlesSql = "SELECT COUNT(*) as total FROM combined_merge_datasets";
+    $totalArticlesSql = "SELECT COUNT(*) as total FROM testing";
     if (!empty($searchTerm)) {
         $totalArticlesSql .= " WHERE `COL 1` LIKE '%" . $conn->real_escape_string($searchTerm) . "%'";
     }
