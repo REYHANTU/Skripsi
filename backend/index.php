@@ -45,8 +45,8 @@
     </header>
 
     <nav>
-        <a href="../frontend/html/about.html"><strong>About</strong></a>
-        <select id="filterByMonth">
+        <a href="../frontend/html/about.html" style="margin-left: 8px"><strong>About</strong></a>
+        <!-- <select id="filterByMonth">
             <option value="">Filter by Month</option>
             <option value="01">January</option>
             <option value="02">February</option>
@@ -67,7 +67,7 @@
             <option value="2023">2023</option>
             <option value="2022">2022</option>
             <option value="2021">2021</option>
-        </select>
+        </select> -->
     </nav>
 
     <main>
@@ -111,6 +111,7 @@
                 }
                 .news-article p {
                     margin-bottom: 20px;
+                    text-align: justify;
                 }
                 hr {
                     border: none;

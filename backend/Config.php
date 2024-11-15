@@ -3,7 +3,7 @@
 $servername = "127.0.0.1:8111";  // Host server MySQL
 $username = "root";         // Username MySQL (default: root)
 $password = "";             // Password default MySQL (kosong)
-$dbname = "skripsi";    // Nama database yang dihubungkan
+$dbname = "test1";    // Nama database yang dihubungkan
 
 // Membuat koneksi
 $conn = new mysqli($servername, $username, $password, $dbname);

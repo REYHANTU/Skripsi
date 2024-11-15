@@ -1,7 +1,7 @@
 <?php 
 
 include 'Config.php';
-$sql="Select*from combined_merge_datasets";
+$sql="Select*from testing_1_";
 $result=$conn->query($sql);
 
 // $data=array();
